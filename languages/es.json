@@ -1,0 +1,73 @@
+{
+  "menu": {
+    "item2": "Sobre mí",
+    "item3": "Habilidades",
+    "item4": "Formación",
+    "item5": "Proyectos",
+    "item6": "Contacto"
+  },
+  "home": {
+    "slide1_greeting": "¡Hola! Soy",
+    "slide1_title": "Ingeniero en Ciencias de la Computación",
+    "slide1_description": "Ingeniero en Ciencias de la Computación apasionado por la innovación y el desarrollo de soluciones tecnológicas.",
+    "slide2_title": "Desarrollador Web",
+    "slide2_subtitle": "Construyendo soluciones digitales",
+    "slide2_description": "Apasionado por crear aplicaciones y sistemas web que optimicen la experiencia del usuario.",
+    "slide3_title": "Innovador Digital",
+    "slide3_subtitle": "Soluciones para el futuro",
+    "slide3_description": "Trabajando con las tecnologías más recientes para mejorar la interacción digital y optimizar procesos.",
+    "slide4_title": "Ingeniero y Creativo",
+    "slide4_subtitle": "Soluciones tecnológicas",
+    "slide4_description": "Enfocado en crear soluciones innovadoras que transformen el mundo digital.",
+    "cv_button": "Descargar CV",
+    "contact_button": "Contacto"
+  },
+  "sobre-mi": {
+    "title": "Sobre mí",
+    "texto_sobreMi-parrafo1": "Soy Ingeniero en Ciencias de la Computación con una gran pasión por crear soluciones innovadoras y eficientes. Como joven Shuar, aporto una perspectiva única que combina determinación, creatividad y un fuerte sentido de comunidad. A lo largo de mi carrera, me he especializado en diseñar sistemas eficientes, optimizar algoritmos e implementar soluciones tecnológicas avanzadas. Mi formación me ha proporcionado una base sólida en arquitectura de software, inteligencia artificial y procesamiento de datos, áreas donde me apasiona innovar y aplicar nuevas metodologías.",
+    "texto_sobreMi-parrafo2": "Más allá de los aspectos técnicos, creo firmemente en el impacto positivo de la tecnología en la sociedad. Me motiva participar en proyectos que transformen industrias y mejoren la vida de las personas mediante el desarrollo de herramientas inteligentes y eficientes. Con una mentalidad de mejora continua, siempre busco la excelencia y nuevas oportunidades para aprender, colaborar y aportar soluciones que generen valor."
+  },
+  "habilidades": {
+    "title": "Habilidades",
+    "category1": "Lenguajes de Programación",
+    "category2": "Frameworks y Librerías",
+    "category3": "Bases de Datos",
+    "category4": "Herramientas y Entornos de Desarrollo"
+  },
+  "formacion": {
+    "title": "Formación",
+    "formacion1": "Ingeniería en Ciencias de la Computación - Universidad Politécnica Salesiana",
+    "tiempo-formacion1": "2020 - 2025",
+    "formacion2": "Bootcamp Rethos - Universidad Politécnica Salesiana",
+    "tiempo-formacion2": "Agosto 2024",
+    "formacion3": "Colaborador en proyectos tecnológicos y comunitarios - Corporación UNSA",
+    "tiempo-formacion3": "2020 - Actualidad"
+  },
+  "proyectos": {
+    "title": "Proyectos",
+    "title-proyecto1": "EmotionLens: Sistema de Reconocimiento de Emociones",
+    "info-proyecto1": "Aplicación móvil desarrollada en Android Studio con Java, que utiliza algoritmos de visión por computadora para el reconocimiento facial. Emplea cascadas Haar para detectar rostro, ojos, nariz y boca. Con estos puntos, calcula descriptores (como HOG o similares), los envía a un servidor web implementado en Flask, donde un modelo SVM predice la emoción del usuario. Además, la aplicación aplica un filtro interactivo (como gafas virtuales) para mejorar la experiencia visual y educativa. Este sistema es ideal para proyectos educativos y de interacción social.",
+    "title-proyecto2": "Portafolio Personal",
+    "info-proyecto2": "Mi portafolio personal, desarrollado con HTML, CSS y JavaScript, es un espacio donde presento mis proyectos más destacados de manera interactiva, incluyendo despliegues funcionales y enlaces a los repositorios correspondientes. Refleja mi conocimiento en tecnologías como React, Flask, Django, bases de datos como MySQL y MongoDB, y herramientas como Git. El diseño es moderno y adaptable, destacando también mi formación académica, certificaciones y habilidades técnicas tanto en desarrollo frontend como backend, consolidando mi experiencia en programación y desarrollo web.",
+    "title-proyecto3": "AMIRA: Conectando con tu Bienestar",
+    "info-proyecto3": "AMIRA es un asistente emocional diseñado para interactuar con estudiantes a través de un chat, recopilando información clave de las conversaciones. Utiliza técnicas avanzadas de análisis de texto para identificar patrones relacionados con ansiedad, depresión y estrés. Con base en estos datos, AMIRA genera un prediagnóstico emocional, ofreciendo una herramienta innovadora para fomentar el bienestar y facilitar intervenciones oportunas en el ámbito educativo.",
+    "buttons": {
+      "view_more": "Ver más",
+      "view_less": "Ver menos",
+      "view_image": "Ver imagen",
+      "view_repo": "Ver repositorio"
+    },
+    "invitacion-github": "¿Te gustaría conocer más sobre mi trabajo y descubrir otros proyectos desarrollados? Visita mi repositorio de GitHub."
+  },
+  "contacto": {
+    "title": "Contacto",
+    "subtitle": "¿Interesado en colaborar en tu próximo proyecto? Llena el siguiente formulario y te contactaré en breve para conversar sobre cómo podemos lograr tus objetivos con excelencia.",
+    "text": "📩 Contáctame aquí",
+    "btn-enviar": "Enviar mensaje"
+  },
+  "footer": {
+    "social-text": "También puedes ver mis otras redes:",
+    "copyright": "© 2025 KaarJoseph. Todos los derechos reservados.",
+    "developed": "Desarrollado con orgullo desde la Amazonía ecuatoriana. 💚"
+  }
+}

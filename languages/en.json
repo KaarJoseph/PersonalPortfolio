@@ -1,0 +1,74 @@
+{
+  "menu": {
+    "item2": "About me",
+    "item3": "Skills",
+    "item4": "Education",
+    "item5": "Projects",
+    "item6": "Contact"
+  },
+  "home": {
+    "slide1_greeting": "Hello! I'm",
+    "slide1_title": "Computer Science Engineer",
+    "slide1_description": "Computer Science Engineer passionate about innovation and development of technological solutions.",
+    "slide2_title": "Web Developer",
+    "slide2_subtitle": "Building digital solutions",
+    "slide2_description": "Passionate about creating web applications and systems that optimize user experience.",
+    "slide3_title": "Digital Innovator",
+    "slide3_subtitle": "Solutions for the future",
+    "slide3_description": "Working with the latest technologies to improve digital interaction and optimize processes.",
+    "slide4_title": "Engineer and Creative",
+    "slide4_subtitle": "Technological solutions",
+    "slide4_description": "Focused on creating innovative solutions that transform the digital world.",
+    "cv_button": "Download CV",
+    "contact_button": "Contact"
+  },
+  "sobre-mi": {
+    "title": "About me",
+    "texto_sobreMi-parrafo1": "I'm a Computer Science Engineer with a great passion for creating innovative and efficient solutions. As a young Shuar, I bring a unique perspective that combines determination, creativity, and a strong sense of community. Throughout my career, I have specialized in designing efficient systems, optimizing algorithms, and implementing advanced technological solutions. My education has provided me with a solid foundation in software architecture, artificial intelligence, and data processing, areas where I am passionate about innovating and applying new methodologies.",
+    "texto_sobreMi-parrafo2": "Beyond the technical aspects, I firmly believe in the positive impact of technology on society. I am motivated to participate in projects that transform industries and improve people's lives through the development of smart and efficient tools. With a mindset of continuous improvement, I always seek excellence and new opportunities to learn, collaborate, and provide solutions that generate value."
+  },
+  "habilidades": {
+    "title": "Skills",
+    "category1": "Programming Languages",
+    "category2": "Frameworks and Libraries",
+    "category3": "Databases",
+    "category4": "Development Tools and Environments"
+  },
+  "formacion": {
+    "title": "Education",
+    "formacion1": "Computer Science Engineering Salesian Polytechnic University",
+    "tiempo-formacion1": "2020 - 2025",
+    "formacion2": "Rethos Bootcamp UPS Salesian Polytechnic University",
+    "tiempo-formacion2": "August 2024",
+    "formacion3": "Collaborator in technological and community projects UNSA Corporation",
+    "tiempo-formacion3": "2020 - Present"
+
+},
+"proyectos": {
+    "title": "Projects",
+    "title-proyecto1": "EmotionLens: Emotion Recognition System",
+    "info-proyecto1": "A mobile application developed in Android Studio with Java, which uses computer vision algorithms for facial recognition. It uses Haar cascades to detect face, eyes, nose, and mouth. With these points, it calculates descriptors (such as HOG or similar), sends them to a web server implemented in Flask, where an SVM model predicts the user's emotion. Additionally, the application applies an interactive filter (like virtual glasses) to enhance the visual and educational experience. This system is ideal for educational projects and social interaction.",
+    "title-proyecto2": "Personal Portfolio",
+    "info-proyecto2": "My personal portfolio, developed with HTML, CSS, and JavaScript, is a space where I showcase my most outstanding projects interactively, including functional deployments and links to the corresponding repositories. It reflects my knowledge in technologies like React, Flask, Django, databases such as MySQL and MongoDB, and tools like Git. The design is responsive and modern, also highlighting my academic background, certifications, and technical skills in frontend and backend development, consolidating my experience in programming and web development.",
+    "title-proyecto3": "AMIRA: Connecting with Your Well-being",
+    "info-proyecto3": "AMIRA is an emotional assistant designed to interact with students through a chat, collecting key information from conversations. It uses advanced text analysis techniques to identify patterns related to anxiety, depression, and stress. Based on this data, AMIRA generates an emotional pre-diagnosis, offering an innovative tool to promote well-being and facilitate timely interventions in the educational field.",
+    "buttons": {
+        "view_more": "View more",
+        "view_less": "View less",
+        "view_image": "View Image",
+        "view_repo": "View Repository"
+    },
+    "invitacion-github": "Would you like to learn more about my work and discover other developed projects? Visit my GitHub repository."
+},
+  "contacto": {
+    "title": "Contact",
+    "subtitle": "Interested in collaborating on your next project? Fill out the form below and I'll get back to you shortly to discuss how we can achieve your goals with excellence.",
+    "text": "📩 Contact me here",
+    "btn-enviar": "Send Message"
+  },
+  "footer": {
+    "social-text": "You can also check my other networks:",
+    "copyright": "© 2025 KaarJoseph. All rights reserved.",
+    "developed": "Proudly developed from the Ecuadorian Amazon. 💚"
+  }
+}

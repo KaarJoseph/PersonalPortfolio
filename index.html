@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Kaar Joseph Ingeniero en Ciencias Computacionales">
+    <meta name="robots" content="index,follow">
+
+    <title>Kaar Joseph | Ingeniero en Ciencias Computacionales</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/LOGO_VF.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/LOGO_VFF.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+
+        
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <div class="background-image">
+                        <img src="./assets/images/PICTURE.png" alt="Imagen de fondo">
+                    </div>
+                    <div class="home_info">
+                        <div class="container_text-info">
+                            <p class="home_text-1" data-section="home" data-value="slide1_greeting">¡Hola! Soy</p>
+                            <p class="home_text-2">Kaar Joseph</p>
+                        </div>
+                        <div>
+                            <p class="home_text-3 text-type1" data-section="home" data-value="slide1_title">Ingeniero en <br>Ciencias Computacionales</p>
+                        </div>
+                        <div class="container_parrafo-info">
+                            <p data-section="home" data-value="slide1_description">Ingeniero en Ciencias Computacionales apasionado por la innovación y el desarrollo de soluciones tecnológicas.</p>
+                        </div>
+
+                        <div class="container_button">
+                            <a href="https://drive.google.com/file/d/109Qp6KMu_aNeNeEo0JjtWTT1nijfRErU/view" target="_blank">
+                                <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                            </a>
+                            <a href="#contacto">
+                                <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                            </a>
+                        </div>                        
+                        
+
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="background-image">
+                        <img src="./assets/images/PICTURE1.jpeg" alt="Imagen de fondo">
+                    </div>
+                    <div class="home_info">
+                        <div class="container_text-info">
+                            <p class="home_text-1" data-section="home" data-value="slide2_title">Desarrollador Web</p>
+                            <p class="home_text-2">Kaar Joseph</p>
+                        </div>
+                        <div>
+                            <p class="home_text-3 text-type" data-section="home" data-value="slide2_subtitle">Construyendo soluciones digitales</p>
+                        </div>
+                        <div class="container_parrafo-info">
+                            <p data-section="home" data-value="slide2_description">Apasionado por crear aplicaciones web y sistemas que optimicen la experiencia del usuario.</p>
+                        </div>
+
+                        <div class="container_button">
+                            <a href="https://drive.google.com/file/d/109Qp6KMu_aNeNeEo0JjtWTT1nijfRErU/view" target="_blank">
+                                <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                            </a>
+                            <a href="#contacto">
+                                <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="background-image">
+                        <img src="./assets/images/PICTURE2VF.jpeg" alt="Imagen de fondo">
+                    </div>
+                    <div class="home_info">
+                        <div class="container_text-info">
+                            <p class="home_text-1" data-section="home" data-value="slide3_title">Innovador Digital</p>
+                            <p class="home_text-2">Kaar Joseph</p>
+                        </div>
+                        <div>
+                            <p class="home_text-3 text-type" data-section="home" data-value="slide3_subtitle">Soluciones para el futuro</p>
+                        </div>
+                        <div class="container_parrafo-info">
+                            <p data-section="home" data-value="slide3_description">Trabajando con las últimas tecnologías para mejorar la interacción digital y optimizar procesos.</p>
+                        </div>
+                        
+                        <div class="container_button">
+                            <a href="https://drive.google.com/file/d/109Qp6KMu_aNeNeEo0JjtWTT1nijfRErU/view" target="_blank">
+                                <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                            </a>
+                            <a href="#contacto">
+                                <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <div class="background-image">
+                        <img src="./assets/images/PICTURE3.jpg" alt="Imagen de fondo">
+                    </div>
+                    <div class="home_info">
+                        <div class="container_text-info">
+                            <p class="home_text-1" data-section="home" data-value="slide4_title">Ingeniero y Creativo</p>
+                            <p class="home_text-2">Kaar Joseph</p>
+                        </div>
+                        <div>
+                            <p class="home_text-3 text-type" data-section="home" data-value="slide4_subtitle">Soluciones tecnológicas</p>
+                        </div>
+                        <div class="container_parrafo-info">
+                            <p data-section="home" data-value="slide4_description">Enfocado en la creación de soluciones innovadoras que transforman el mundo digital.</p>
+                        </div>
+                        <div class="container_button">
+                            <a href="https://drive.google.com/file/d/1A1_WE87XhS7mtc006iPqZHwkSR5QvKL1/view?usp=sharing" target="_blank">
+                                <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                            </a>
+                            <a href="#contacto">
+                                <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    
+        <!-- Contenedor para las imágenes en la "escalera" -->
+        <div class="image-staircase">
+            <div class="staircase-images">
+                <img src="./assets/images/PICTURE.png" alt="Imagen 1">
+                <img src="./assets/images/PICTURE1.jpeg" alt="Imagen 2">
+                <img src="./assets/images/PICTURE2VF.jpeg" alt="Imagen 3">
+                <img src="./assets/images/PICTURE3.jpg" alt="Imagen 4">
+            </div>
+        </div>
+    
+        <!-- Puntos de navegación -->
+        <div class="slider-dots">
+            <span class="dot active" onclick="moveToSlide(0)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+            <span class="dot" onclick="moveToSlide(2)"></span>
+            <span class="dot" onclick="moveToSlide(3)"></span>
+        </div>
+    
+        <div class="links">
+            <a href="https://www.linkedin.com/in/kaar-joseph-5612481a2/" target="_blank" class="icon-linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/KaarJoseph" target="_blank" class="icon-github">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/kaar_joseph/" target="_blank" class="icon-instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        
+    </section>
+
+    <section class="sobreMi" id="sobreMi">
+        <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+        <div class="container_content-sobreMi" data-aos="fade-up">
+            
+            <picture class="container_image-sobreMi">
+            <img class="image_sobreMi" src="./assets/images/PICTURE4.jpg" alt="ME">
+            </picture>
+
+            <div class="container_texto-sobreMi">
+            <span class="title_sobreMi">Kaar Joseph</span>
+                <div class="container_texto-sobreMi">
+                    <div class="texto_sobreMi">
+                        <p class="texto_sobreMi-parrafo" data-section="sobre-mi" data-value="texto_sobreMi-parrafo1" style="margin-bottom: .1em !important;">
+                            Soy Ingeniero en Ciencias Computacionales con una pasión por crear soluciones innovadoras y eficientes. Como joven Shuar, llevo conmigo una visión única que combina determinación, creatividad y un fuerte sentido de comunidad. A lo largo de mi trayectoria, me he especializado en el diseño de sistemas eficientes, la optimización de algoritmos y la implementación de soluciones tecnológicas avanzadas. Mi formación me ha brindado una sólida base en arquitectura de software, inteligencia artificial y procesamiento de datos, áreas en las que me apasiona innovar y aplicar nuevas metodologías.                        </p>
+                        <br style="content: ''; display: block; margin: 0rem 0 !important;"> <!-- Espacio entre párrafos -->
+                        <p class="texto_sobreMi-parrafo" class="texto_sobreMi-parrafo" data-section="sobre-mi" data-value="texto_sobreMi-parrafo2" style="margin-top: .1rem !important;">
+                            Más allá de lo técnico, creo firmemente en el impacto positivo de la tecnología en la sociedad. Me motiva participar en proyectos que transformen industrias y mejoren la vida de las personas mediante el desarrollo de herramientas inteligentes y eficientes. Con una mentalidad de mejora continua, siempre busco la excelencia y nuevas oportunidades para aprender, colaborar y aportar soluciones que generen valor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <!-- Decoraciones 
+            <img src="./assets/images/lineas1.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/lineas2.png" alt="Decoración puntos" class="puntos2-habilidades">-->
+            <div class="categorias-habilidades">
+                <!-- Lenguajes de Programación -->
+                <div class="categoria">
+                    <h2 data-section="habilidades" data-value="category1">Lenguajes de Programación</h2>
+                    <div class="cards_container--habilidades">
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="300">
+                            <img src="./assets/images/icon-python.png" alt="Python">
+                            <p>Python</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                            <img src="./assets/images/java.png" alt="Java">
+                            <p>Java</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                            <img src="./assets/images/c++.png" alt="C++">
+                            <p>C++</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                            <img src="./assets/images/icon-js.png" alt="JavaScript">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                            <img src="./assets/images/ts.png" alt="TypeScript">
+                            <p>TypeScript</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1300">
+                            <img src="./assets/images/icon-html.png" alt="HTML5">
+                            <p>HTML5</p>
+                        </div>
+                    <!--<div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
+                            <img src="./assets/images/icon-css.png" alt="CSS3">
+                            <p>CSS3</p>
+                        </div>-->
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
+                            <img src="./assets/images/GO.png" alt="GO">
+                            <p>GO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks y Librerías -->
+                <div class="categoria">
+                    <h2 data-section="habilidades" data-value="category2">Frameworks y Librerías</h2>
+                    <div class="cards_container--habilidades">
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="300">
+                            <img src="./assets/images/angular.png" alt="Angular">
+                            <p>Angular</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                            <img src="./assets/images/django.png" alt="Django">
+                            <p>Django</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                            <img src="./assets/images/flask.png" alt="Flask">
+                            <p>Flask</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                            <img src="./assets/images/react.png" alt="React">
+                            <p>React</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bases de Datos -->
+                <div class="categoria">
+                    <h2 data-section="habilidades" data-value="category3">Bases de Datos</h2>
+                    <div class="cards_container--habilidades">
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="300">
+                            <img src="./assets/images/mysql.png" alt="MySQL">
+                            <p>MySQL</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                            <img src="./assets/images/mongo.png" alt="MongoDB">
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                            <img src="./assets/images/sqlite.png" alt="SQLite">
+                            <p>SQLite</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                            <img src="./assets/images/postgress.png" alt="PostgreSQL">
+                            <p>PostgreSQL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Herramientas y Entornos de Desarrollo -->
+                <div class="categoria">
+                    <h2 data-section="habilidades" data-value="category4">Herramientas y Entornos de Desarrollo</h2>
+                    <div class="cards_container--habilidades">
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="300">
+                            <img src="./assets/images/git.png" alt="Git">
+                            <p>Git</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                            <img src="./assets/images/linux.png" alt="Linux">
+                            <p>Linux</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                            <img src="./assets/images/docker.png" alt="Docker">
+                            <p>Docker</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                            <img src="./assets/images/vs code.png" alt="VS Code">
+                            <p>VS Code</p>
+                        </div>
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                            <img src="./assets/images/jupyter.png" alt="Jupyter Notebook">
+                            <p>Jupyter Notebook</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/certifiedUPS.png" alt="Logo - Universidad">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Ingeniería en Ciencias Computacionales <br><br> Universidad Politécnica Salesiana</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2020 - 2025</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/certifiedRETHOS.png" alt="Logo - Certificación">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Bootcamp Rethos UPS<br><br> Universidad Politécnica Salesiana</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">Agosto 2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/certifiedUNSA.png" alt="Logo - Técnico">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Colaborador en proyectos tecnológicos y comunitarios <br><br> Corporación UNSA</p>
+                        <p data-section="formacion" data-value="tiempo-formacion3">2020 - Actualidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <div class="cards_container--proyectos">
+                <!-- Card 1 -->
+                <div class="cards--proyectos card_emotionLens" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="assets/images/DIA3.png" alt="Proyecto: Sistema de Gestión de Datos" id="img1">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">EmotionLens: Sistema de Reconocimiento de Emociones</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">
+                            Una aplicación móvil desarrollada en Android Studio con Java, que utiliza algoritmos de visión por computador para el reconocimiento facial. Emplea cascadas de Haar para detectar rostro, ojos, nariz y boca. Con estos puntos, calcula descriptores (como HOG o similares), los envía a un servidor web implementado en Flask, donde un modelo SVM predice la emoción del usuario. Además, la aplicación aplica un filtro interactivo (como unas gafas virtuales) para mejorar la experiencia visual y educativa. Este sistema es ideal para proyectos educativos y de interacción social.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">  
+                        <button class="btn_viewImage" onclick="openModal('img1')">
+                            <img src="assets/images/icons/search.png" alt="Ver Imagen" style="width:1.2em;height:1.2em;vertical-align:middle;margin-right:8px;">
+                            <span data-section="proyectos" data-value="buttons.view_image">Ver Imagen</span>
+                        </button>
+
+                        <a href="https://github.com/KaarJoseph/AppDetector.git" target="_blank">
+                            <button class="btn_repo">
+                                <img src="assets/images/icons/github.png" alt="Ver Repositorio" style="width:1.2em;height:1.2em;vertical-align:middle;margin-right:8px;">
+                                <span data-section="proyectos" data-value="buttons.view_repo">Ver Repositorio</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="assets/images/Portafolio.png" alt="Proyecto: Portafolio" id="img2">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Portafolio Personal</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">
+                            Mi portafolio personal, desarrollado con HTML, CSS y JavaScript, es un espacio donde presento mis proyectos más destacados de forma interactiva, incluyendo despliegues funcionales y enlaces a los repositorios correspondientes. Refleja mis conocimientos en tecnologías como React, Flask, Django, bases de datos como MySQL y MongoDB, y herramientas como Git. El diseño es responsivo y moderno, destacando también mi formación académica, certificaciones y habilidades técnicas en desarrollo frontend y backend, consolidando mi experiencia en programación y desarrollo web.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <button class="btn_viewImage" onclick="openModal('img2')">
+                            <img src="assets/images/icons/search.png" alt="Ver Imagen" style="width:1.2em;height:1.2em;vertical-align:middle;margin-right:8px;">
+                            <span data-section="proyectos" data-value="buttons.view_image">Ver Imagen</span>
+                        </button>
+
+                        <a href="https://github.com/KaarJoseph/PersonalPortfolio.git" target="_blank">
+                            <button class="btn_repo">
+                                <img src="assets/images/icons/github.png" alt="Ver Repositorio" style="width:1.2em;height:1.2em;vertical-align:middle;margin-right:8px;">
+                                <span data-section="proyectos" data-value="buttons.view_repo">Ver Repositorio</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="cards--proyectos card_amira" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/DIA2.png" alt="Proyecto: Otro Proyecto" id="img3">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">AMIRA: Conectando con tu Bienestar</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            AMIRA es un asistente emocional diseñado para interactuar con estudiantes mediante un chat, recopilando información clave de las conversaciones. Utiliza técnicas avanzadas de análisis de texto para identificar patrones relacionados con la ansiedad, depresión y estrés. Con base en estos datos, AMIRA genera un prediagnóstico emocional, ofreciendo una herramienta innovadora para promover el bienestar y facilitar intervenciones oportunas en el ámbito educativo.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <button class="btn_viewImage" onclick="openModal('img3')">
+                            <img src="assets/images/icons/search.png" alt="Ver Imagen" style="width:1.2em;height:1.2em;vertical-align:middle;margin-right:8px;">
+                            <span data-section="proyectos" data-value="buttons.view_image">Ver Imagen</span>
+                        </button>
+
+                        <a href="https://github.com/KaarJoseph/Amira-Conectando-con-tu-bienestar.git" target="_blank">
+                            <button class="btn_repo">
+                                <img src="assets/images/icons/github.png" alt="Ver Repositorio" style="width:1.2em;height:1.2em;vertical-align:middle;margin-right:8px;">
+                                <span data-section="proyectos" data-value="buttons.view_repo">Ver Repositorio</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyectos-github-invite" data-section="proyectos" data-value="invitacion-github">
+                <p class="proyectos-github-invite">
+                    ¿Te gustaría conocer más sobre mi trabajo y descubrir otros proyectos desarrollados?<br>
+                    <a href="https://github.com/KaarJoseph" target="_blank">
+                        Visita mi repositorio de GitHub aquí
+                        <img src="assets/images/icons/github.png" alt="GitHub">
+                    </a>
+                </p>
+                </div>
+        </section>
+
+
+        <!-- Modal para ver imagen completa -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <span class="close-btn" onclick="closeModal()">X</span>
+            <img id="modal-img" src="" alt="Imagen completa">
+        </div>
+
+                
+
+<!-- Contacto -->
+<section class="contacto" id="contacto">
+    <div class="contacto-header" data-aos="fade-up">
+        <h1 data-section="contacto" data-value="title">Contacto</h1>
+        <div class="contacto-subtitle">
+            <span class="decorative-icon">🔹</span>
+            <p data-section="contacto" data-value="subtitle">
+                ¿Interesado en colaborar en su próximo proyecto?<br>
+                Complete el siguiente formulario y me comunicaré con usted a la brevedad para discutir cómo podemos alcanzar sus objetivos con excelencia.
+            </p>
+        </div>
+    </div>
+
+    <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="container--contacto">
+            <!-- Tarjeta de contacto -->
+            <div class="contact-card">
+                <div class="container_text--contacto">
+                    <p data-section="contacto" data-value="text">
+                        <span class="contact-icon">📩</span> Contácteme aquí
+                    </p>
+                </div>
+
+                <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                    <div class="input-group">
+                        <label for="nombre">
+                            <i class="fas fa-user icon-accent"></i> 
+                            <span class="label-text">Nombre | Name</span>
+                        </label>
+                        <input id="nombre" type="text" name="name" placeholder="Ej: Juan Pérez | John Doe" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">
+                            <i class="fas fa-envelope icon-accent"></i> 
+                            <span class="label-text">E-mail</span>
+                        </label>
+                        <input id="email" type="email" name="email" placeholder="Ej: contacto@empresa.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="asunto">
+                            <i class="fas fa-comment icon-accent"></i> 
+                            <span class="label-text">Asunto | Subject</span>
+                        </label>
+                        <input id="asunto" type="text" name="affair" placeholder="Ej: Propuesta de colaboración" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mensaje">
+                            <i class="fas fa-pencil-alt icon-accent"></i> 
+                            <span class="label-text">Mensaje | Message</span>
+                        </label>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Describa su proyecto o consulta..." required></textarea>
+                    </div>
+
+                    <div class="btn_form--contacto">
+                        <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">
+                            <span>Enviar Mensaje</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+    <div class="contianer--footer">
+        <!-- Texto de redes sociales mejorado -->
+        <p class="redes-texto" data-section="footer" data-value="social-text">También puedes revisar mis otras redes:</p>        
+        <!-- TUS REDES SOCIALES ORIGINALES (EXACTAMENTE COMO LAS TENÍAS) -->
+        <div class="container_redes-footer">
+            <a href="https://www.linkedin.com/in/kaar-joseph-5612481a2/" target="_blank" class="icon-linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/KaarJoseph" target="_blank" class="icon-github">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/kaar_joseph/" target="_blank" class="icon-instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <!-- Texto del footer (original) -->
+        <div class="container_text--footer">
+            <span data-section="footer" data-value="copyright">&copy; 2025 KaarJoseph. Todos los derechos reservados.</span>
+            <span data-section="footer" data-value="developed">Desarrollado con orgullo desde la Amazonía ecuatoriana. <i class="fas fa-heart" style="color: var(--shuar-green);"></i></span>
+        </div>
+    </div>
+</footer>
+
+<!-- Botón ir arriba (original) -->
+<div class="go-top-container">
+    <div class="go-top-button">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</div>
+
+<!-- Scripts (originales) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="./script.js"></script>
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>
